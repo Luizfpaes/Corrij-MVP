@@ -19,8 +19,8 @@ from datetime import datetime
 import json
 import csv
 
-from corrij_mvp.src.align.align import align_image   # <- corrigido
-from corrij_mvp.src import layout, extract, export_pdf
+from src.align.align import align_image   # <- corrigido
+from src import layout, extract, export_pdf
 
 def processar(gabarito_file, alunos_files, out_dir, materia, turma, escola, data, metodo="auto_fallback"):
     os.makedirs(out_dir, exist_ok=True)
