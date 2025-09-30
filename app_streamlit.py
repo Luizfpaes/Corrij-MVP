@@ -98,6 +98,7 @@ st.title("📘 CorriJá - Correção Automática de Provas")
 
 with st.sidebar:
     st.header("Configurações")
+    Aluno = st.text_input("Matéria", "nome do aluno")
     materia = st.text_input("Matéria", "Matemática")
     turma = st.text_input("Turma", "3A")
     escola = st.text_input("Escola", "Colégio Estadual MS")
