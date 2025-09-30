@@ -94,11 +94,11 @@ def processar(gabarito_file, alunos_files, out_dir, materia, turma, escola, data
 # Interface Streamlit
 # -------------------------------
 st.set_page_config(page_title="CorriJá - Correção de Provas", layout="wide")
-st.title("📘 CorriJá - Correção Automática de Provas")
+st.title(" CorriJá - Correção Automática de Provas")
 
 with st.sidebar:
     st.header("Configurações")
-    Aluno = st.text_input("Matéria", "nome do aluno")
+    Aluno = st.text_input("Aluno", "nome do aluno")
     materia = st.text_input("Matéria", "Matemática")
     turma = st.text_input("Turma", "3A")
     escola = st.text_input("Escola", "Colégio Estadual MS")
